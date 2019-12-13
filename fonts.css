@@ -1,0 +1,16 @@
+li {
+list-style: none;
+background-color: white;
+}
+
+li::before {
+    content: "• ";
+    color: yellowgreen;
+    margin-left: -12px;
+}
+
+h1 {
+    color: white;
+    font-size: 42px;
+    text-transform: uppercase;
+}

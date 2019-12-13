@@ -1,0 +1,56 @@
+.popup {
+    background-color: #0000007a;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+
+.daymessage {
+    position: relative;
+    background-color: white;
+    width: 400px;
+    height: auto;
+    padding: 40px 270px 40px 40px;
+    min-height: 400px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    border: solid 12px #daaa45;
+}
+
+.daymessage p,
+.daymessage a{
+    background-color: white;
+}
+
+.daymessage p {
+    margin-bottom: 0.5em;
+    font-size: 20px;
+    font-size: 2.6vh;
+}
+
+.daymessage a{
+    color:#CC3739;
+}
+
+.enot {
+    background: none;
+    position: absolute;
+    bottom: -8px;
+    right: -8px;
+}
+
+.cross {
+    background: none;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+
+}
